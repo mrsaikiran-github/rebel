@@ -196,6 +196,7 @@ blockquote {
 
 button {
      border: 0;
+     border-style: dotted;
      margin: 0;
      padding: 0;
      cursor: pointer;
@@ -214,7 +215,7 @@ button {
 .header_section{
 	width: 100%;
 	float: left;
-	background-image: url(../images/banner.png);
+	background-image: url(/images/imageonline-co-blurimage.jpg);
 	height: auto;
 	padding: 20px 0px;
 	background-size: 100%;
@@ -317,8 +318,9 @@ body{
 .carousel-inner,.carousel,.carousel-item,.container,.fill {
     height:100%;
     width:100%;
-    background-position:center center;
+    background-position:cover;
     background-size:cover;
+    
 }
 .slide-wrapper{display:inline;}
 .slide-wrapper .container{padding:0;}
@@ -361,7 +363,7 @@ body{
 }
 .carousel-indicators li{
     display:block; margin-bottom:5px; border:1px solid #00a199; 
-    margin-bottom: 5px;}
+    margin-bottom: 5px;
     
 }
 .carousel-indicators li.active{
@@ -767,6 +769,7 @@ a:hover {
 
 .enter_email{
     border: 1px solid #000;
+    border-radius: 20px;
     color: #000000;
     width: 100%;
     height: 44px;
@@ -775,12 +778,14 @@ a:hover {
 }
 
 .subscribr_bt {
-    width: 80%;
-    float: right;
-    background-color: #eb44b9;
-    font-size: 13pt;
-    height: 50px;
-    color: #ffffff;
+    width: 50%;
+    border-radius: 50px;
+    float: left;
+    background-color: #f8f5f5;
+
+    font-size: 15pt;
+    height: 40px;
+    color: black;
 }
 
 
